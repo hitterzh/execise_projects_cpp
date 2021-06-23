@@ -16,3 +16,7 @@ add_executable(dict cppthings/dict.cpp)
 
 include_directories("C:/MinGW/include")
 
+
+# for python vm
+add_executable(railgun pythonvm/main.cpp
+        pythonvm/util/map.cpp)
