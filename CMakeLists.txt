@@ -12,6 +12,7 @@ add_executable(overload_pp cppthings/overload_pp.cpp)
 add_executable(overload_cast cppthings/overload_cast.cpp)
 add_executable(func_template cppthings/func_template.cpp)
 add_executable(dict cppthings/dict.cpp)
+add_executable(cppstd cppstdlib/stl_routine.cpp)
 #target_link_libraries(leptjson_testprj leptjson)
 
 include_directories("C:/MinGW/include")
